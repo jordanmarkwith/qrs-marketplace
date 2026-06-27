@@ -1,0 +1,26 @@
+{
+  "name": "qrs-risk",
+  "owner": {
+    "name": "QRS — Quantum Risk Systems",
+    "email": "jordan@qrsrisk.com",
+    "url": "https://qrsrisk.com"
+  },
+  "metadata": {
+    "description": "Quantum-Native risk tooling from QRS (Patent QRS-001): free, local risk skills plus sealed, independently verifiable runs on the QRS quantum-native engine.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "qrs",
+      "source": "./qrs",
+      "description": "Free, local risk skills — catastrophe loss metrics (EP curves, AAL, return periods, VaR/TVaR), claim grounding, and Monte Carlo simulation — plus sealed, independently verifiable runs on the QRS quantum-native engine. Don't trust the number; re-run the seal and check it yourself.",
+      "version": "0.1.1",
+      "author": { "name": "QRS", "url": "https://qrsrisk.com" },
+      "homepage": "https://qrsrisk.com",
+      "license": "MIT",
+      "category": "data",
+      "tags": ["risk", "monte-carlo", "catastrophe", "actuarial", "ep-curve", "var", "verifiable", "seal", "quantum", "world-cup"],
+      "strict": true
+    }
+  ]
+}
