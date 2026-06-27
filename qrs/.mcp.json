@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "qrs-oracle": {
+      "type": "http",
+      "url": "https://api.qrsrisk.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${QRS_API_TOKEN}"
+      }
+    }
+  }
+}
